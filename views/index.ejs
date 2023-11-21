@@ -4,6 +4,10 @@
     <title><%= title %></title>
   </head>
   <body>
-    <h1>Test</h1>
+    <h1>Masukkan Username</h1>
+    <form action="/user" method="post">
+      <input type="text" name="username" placeholder="Username" required />
+      <button type="submit">Kirim</button>
+    </form>
   </body>
 </html>
